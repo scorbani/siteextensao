@@ -33,4 +33,30 @@
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+
+  .btn-download {
+    font-weight: bold;
+    width: 280px;
+    height: 58px;
+    background-color: #000000; /* Cor de fundo do botão */
+    border: none; /* Sem borda */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Centralizar o texto */
+    text-decoration: none; /* Sem sublinhado */
+    display: inline-block; /* Exibir como um elemento em linha */
+    font-size: 18px; /* Tamanho da fonte */
+    margin: 10px; /* Espaçamento externo */
+    cursor: pointer; /* Alterar o cursor quando o botão é clicado */
+    border-radius: 25px; /* Adicionar borda arredondada */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Adicionar sombra */
+    transition: all 0.3s ease-in-out; /* Adicionar transição suave */
+  }
+  
+  /* Estilo do botão quando o mouse está em cima */
+  .btn-download:hover {
+    background-color: #333333;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    /* transform: scale(1.02) */
+  }
   

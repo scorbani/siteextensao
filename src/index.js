@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar'
 import MainSection from './components/MainSection/MainSection';
 
 import GoogleFontLoader from 'react-google-font-loader';
+import DownloadSection from './components/DownloadSection/DownloadSection';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +19,8 @@ root.render(
 />
     <Navbar />
     <MainSection />
-    <App />
+    <DownloadSection />
+    {/* <App /> */}
   </React.StrictMode>
 );
 
