@@ -3,10 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './components/Navbar/Navbar'
+import MainSection from './components/MainSection/MainSection';
+
+import GoogleFontLoader from 'react-google-font-loader';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <GoogleFontLoader
+  fonts={[    {      font: 'Montserrat',      weights: [400, '400i'],
+    },
+  ]}
+/>
+    <Navbar />
+    <MainSection />
     <App />
   </React.StrictMode>
 );
