@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 import Navbar from './components/Navbar/Navbar'
 import MainSection from './components/MainSection/MainSection';
+import InfoSection from './components/InfoSection/InfoSection';
 
 import GoogleFontLoader from 'react-google-font-loader';
 import DownloadSection from './components/DownloadSection/DownloadSection';
@@ -19,6 +21,7 @@ root.render(
 />
     <Navbar />
     <MainSection />
+    <InfoSection/>
     <DownloadSection />
     {/* <App /> */}
   </React.StrictMode>
