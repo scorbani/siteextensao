@@ -25,7 +25,7 @@ function TeamSection() {
                     <div id="person-3" className='person-img'></div>
                     <p className="person-title">André Pereira</p>
                     <p className='person-text'>cargo</p>
-                    <a href="https://www.linkedin.com/in/andredefariaspereira/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                    <a href="https://lcc-uff.github.io/andre" target="_blank" rel="noopener noreferrer">Página pessoal</a>
                 </div>
                 <div className='person'>
                     <div id="person-4" className='person-img'></div>

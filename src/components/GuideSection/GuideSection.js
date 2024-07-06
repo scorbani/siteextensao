@@ -15,10 +15,10 @@ function GuideSection() {
 
     return (
         <div className="guide-background">
-            <h2 className='guide-title'>Guia</h2>
+            <h2 className='guide-title'>Sobre o projeto</h2>
             <div className="guide-section">
                 
-                <div id="img-id" className="img-class"></div>
+                {/* <div id="img-id" className="img-class"></div> */}
 
                 <div className="guide-container">
                     <div className="guide-navbar">
@@ -28,15 +28,15 @@ function GuideSection() {
                             </li>
 
                             <li className="nav-item">
-                                <button onClick={() => setComponent('2')} className="nav-btn">Normas</button>
+                                <button onClick={() => setComponent('2')} className="nav-btn">Estrutura</button>
                             </li>
 
                             <li className="nav-item">
-                                <button onClick={() => setComponent('3')} className="nav-btn">Estrutura</button>
+                                <button onClick={() => setComponent('3')} className="nav-btn">Manual</button>
                             </li>
 
                             <li className="nav-item">
-                                <button onClick={() => setComponent('4')} className="nav-btn">Manual</button>
+                                <button onClick={() => setComponent('4')} className="nav-btn">Normas</button>
                             </li>
                         </ul>
                     </div>
@@ -46,12 +46,12 @@ function GuideSection() {
                             <Aplicativo></Aplicativo>    
                             :
                             component === '2'?
-                            <Normas/>
-                            :
-                            component === '3'?
                             <Estrutura/>
                             :
+                            component === '3'?
                             <Manual/>
+                            :
+                            <Normas/>
                         }
                     </div>
                     

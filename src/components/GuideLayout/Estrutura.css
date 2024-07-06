@@ -1,4 +1,18 @@
 .estrutura-container{
     margin-left: 1em;
     margin-top: 1em;
+
+    display: flex;
+}
+
+.slider{
+    width:50%;
+}
+
+.slide-image{
+    width: 500px;
+    height: 450px;
+    
+    margin-right:3em;
+    margin-left:3em;
 }

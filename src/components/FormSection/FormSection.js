@@ -1,25 +1,31 @@
 
 import './FormSection.css'; // Certifique-se de importar o arquivo de estilo CSS
 
+
 const FormSection = () => {
-  
+
+  const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdKry_BjDfoesmbzc-IzRZGLVhA2uJ_Id8uCcBAbz6rm8Kr7A/viewform?embedded=true";
 
   const handleSubmit = event => {
     event.preventDefault();
     // Aqui você pode adicionar a lógica para enviar os dados do formulário
-    
+
   };
+
 
   return (
     <div className="form-background">
       <div className="form-section-title">
-        <h2 className="form-title">Queremos conhecer você!</h2>
-        <p>Preencha o formulário abaixo para receber acesso ao programa.</p>
+        <h2 className="form-title">PyCasa Download</h2>
+       
+        <p>Clique agora no botão para responder o formulário e ter acesso ao nosso programa</p>
       </div>
       <section className="form-section">
         <form onSubmit={handleSubmit}>
-        
-          <div class="form__group field">
+          <div>
+            <button className='form-btn'>Preencher formulário</button>
+          </div>
+          {/* <div class="form__group field">
               <input type="input" class="form__field" placeholder="Nome" name="name" id='name' required />
               <label for="name" class="form__label">Nome Completo</label>
           </div>
@@ -46,14 +52,14 @@ const FormSection = () => {
 
           <div>
             <button className='form-btn'>Downloads</button>
-          </div>
+          </div> */}
 
         </form>
 
 
-        
+
       </section>
-      
+
     </div>
   );
 };
