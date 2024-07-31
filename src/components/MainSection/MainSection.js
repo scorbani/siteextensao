@@ -5,6 +5,11 @@ import { AiFillCheckCircle } from "react-icons/ai";
 
 
 function MainSection() {
+
+    const handleClick = () => {
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSdKry_BjDfoesmbzc-IzRZGLVhA2uJ_Id8uCcBAbz6rm8Kr7A/viewform?embedded=true", '_blank');
+    }
+
     return (
         <div className="main-section">
             <div className="main-container">
@@ -17,7 +22,7 @@ function MainSection() {
                     <li className='benefits-item'><AiFillCheckCircle></AiFillCheckCircle><p>Prevenção de falhas e riscos</p></li>
                 </ul>
                 <div>
-                    <button className='btn-download'>Downloads</button>
+                    <button className='btn-download' onClick={handleClick}>Download</button>
                 </div>
             </div>
         </div>

@@ -12,22 +12,19 @@ import MainSection from './components/MainSection/MainSection';
 import InfoSection from './components/InfoSection/InfoSection';
 import GuideSection from './components/GuideSection/GuideSection';
 
-import FormSection from './components/FormSection/FormSection';
 import TeamSection from './components/teamSection/TeamSection';
-
-
+import DisclaimerSection from './components/DisclaimerSection/DisclaimerSection';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
+
     <Navbar />
     <MainSection />
-    <InfoSection/>
-    <GuideSection/>
-    <FormSection />
-    <TeamSection/>
-    {/* <App /> */}
+    <InfoSection />
+    <GuideSection />
+    <TeamSection />
+    <DisclaimerSection />
   </React.StrictMode>
 );
 

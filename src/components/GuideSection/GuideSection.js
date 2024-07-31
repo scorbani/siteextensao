@@ -17,8 +17,6 @@ function GuideSection() {
         <div className="guide-background">
             <h2 className='guide-title'>Sobre o projeto</h2>
             <div className="guide-section">
-                
-                {/* <div id="img-id" className="img-class"></div> */}
 
                 <div className="guide-container">
                     <div className="guide-navbar">

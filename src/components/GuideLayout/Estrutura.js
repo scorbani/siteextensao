@@ -27,22 +27,25 @@ function Estrutura() {
     return (
         <div className="estrutura-container">
             <div className="texto">
-                <h2>Título</h2>
-                <p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
-                texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
-                texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+                <h2>PyCasa - Saída de dados</h2>
+                <p className="introduction">O PyCasa está integrado com um visualizador de IFC. Após a análise,
+                    o usuário visualiza as peças em 3D, tem informações das seções e comprimento.
+
+                </p>
+                <p className="introduction">Caso exista alguma inconsistência favor nos contactar por e-mail.
+
                 </p>
             </div>
 
             <div className='slider'>
-                <Swiper 
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
-                slidesPerView={1} 
-                pagination={{ clickable: true }}
-                navigation>
-                    {listaImagens.map( (item) => ( 
-                        <SwiperSlide key ={item.id}>
-                            <img src={item.image} alt="" className="slide-image"></img>                           
+                <Swiper
+                    modules={[Navigation, Pagination, Scrollbar, A11y]}
+                    slidesPerView={1}
+                    pagination={{ clickable: true }}
+                    navigation>
+                    {listaImagens.map((item) => (
+                        <SwiperSlide key={item.id}>
+                            <img src={item.image} alt="" className="slide-image"></img>
                         </SwiperSlide>
                     ))}
                 </Swiper>

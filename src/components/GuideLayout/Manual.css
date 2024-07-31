@@ -1,15 +1,10 @@
 .manual-container{
     margin-top: 1em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .manual-img{
     margin-left:12em;
     margin-bottom:2em;
-    width:72%;
-    height:78%;
-    object-fit: cover;
+    width: 40vw;
+    height: 20vw;
 }
