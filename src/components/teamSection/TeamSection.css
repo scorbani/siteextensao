@@ -1,89 +1,106 @@
-.team-section{
-    height:80vh;
-    display:flex;
+.team-section {
+    height: 80vh;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.team-section h2{
+.team-section h2 {
     margin-top: 3vh;
 }
 
-.people-list{
-    display:flex;
-    flex-direction: row;
+.people-list {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top:4em;
-    width:80%;
-
+    margin-top: 4em;
+    width: 90%;
+    row-gap: 40px;
 }
 
-.person{
+.person {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 
-    margin-right:5em;
-    margin-left:5em;
+    margin-right: 5em;
+    margin-left: 5em;
 }
 
-.person-img{
-    width:150px;
-    height:150px;
-    border-radius:50%;
-    background-size:cover;
-    background-position:center;
-    margin-bottom:1em;
+.person-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
 }
 
-#person-1{
+#person-1 {
     background-image: url(../../assets/silvia.jpg);
 }
 
-#person-2{
+#person-2 {
     background-image: url(../../assets/victor.jpg);
 }
 
-#person-3{
+#person-3 {
     background-image: url(../../assets/andre.jpg);
 }
 
-#person-4{
+#person-4 {
     background-image: url(../../assets/caina.jpg);
 }
 
-#person-5{
+#person-5 {
     background-image: url(../../assets/be.jpg);
 }
 
-#person-6{
+#person-6 {
     background-image: url(../../assets/lucas.jpg);
 }
 
-#person-7{
+#person-7 {
     background-image: url(../../assets/lamp.png);
 }
 
-.person-title{
-    color: black;
-    font-size:1em;
-    padding-left:0;
-    padding-right:0;
-    padding-bottom:5px;
-    
+#person-8 {
+    background-image: url(../../assets/bemelo.jpg);
 }
 
-.person-text{
-    font-size:0.9em;
+#person-9 {
+    background-image: url(../../assets/wem.jpeg)
+}
+
+#person-10 {
+    background-image: url(../../assets/luizadraeger.jpeg)
+}
+
+.disabled {
     color: gray;
-    padding-bottom:5px;
+    font-size: 14px;
 }
 
-.person a{
+.person-title {
+    color: black;
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;
+
+}
+
+.person-text {
+    font-size: 0.9em;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.person a {
     text-decoration: none;
     color: #0E76A8;
-    font-size:0.9em;
-    border-bottom: 2px solid #0E76A8 ;
+    font-size: 0.9em;
+    border-bottom: 2px solid #0E76A8;
 }

@@ -19,12 +19,12 @@ function TeamSection() {
                     <div id="person-2" className='person-img'></div>
                     <p className="person-title">Victor Lamosa</p>
                     <p className='person-text'>cargo</p>
-                    <a href="https://www.linkedin.com/in/victor-lamosa-89a1b4262/" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
+                    <p className='disabled'>Perfil Profissional</p>
                 </div>
                 <div className='person'>
                     <div id="person-3" className='person-img'></div>
                     <p className="person-title">André Pereira</p>
-                    <p className='person-text'>cargo</p>
+                    <p className='person-text'>Coordenador</p>
                     <a href="https://lcc-uff.github.io/andre" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
                 </div>
                 <div className='person'>
@@ -34,14 +34,13 @@ function TeamSection() {
                     <a href="https://www.linkedin.com/in/cain%C3%A3-bittencourt-232955236/" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
                 </div>
                 <div className='person'>
-                    <div id="person-4" className='person-img'></div>
+                    <div id="person-8" className='person-img'></div>
                     <p className="person-title">Bernardo Melo</p>
                     <p className='person-text'>cargo</p>
-                    <a href="https://www.linkedin.com/in/cain%C3%A3-bittencourt-232955236/" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
+                    <p className='disabled'>Perfil Profissional</p>
                 </div>
-            </div>
 
-            <div className='people-list'>
+
                 <div className='person'>
                     <div id="person-5" className='person-img'></div>
                     <p className="person-title">Bernardo Ventura</p>
@@ -55,17 +54,19 @@ function TeamSection() {
                     <a href="https://www.linkedin.com/in/lucas-vilar-42b988236/" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
                 </div>
                 <div className='person'>
-                    <div id="person-7" className='person-img'></div>
-                    <p className="person-title">wem</p>
+                    <div id="person-9" className='person-img'></div>
+                    <p className="person-title">Wemerson Caxias</p>
                     <p className='person-text'>cargo</p>
-                    <a href="https://www.linkedin.com/in/victor-lamosa-89a1b4262/" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
+                    <a href="https://www.linkedin.com/in/wemersoncaxias/" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
                 </div>
                 <div className='person'>
-                    <div id="person-7" className='person-img'></div>
+                    <div id="person-10" className='person-img'></div>
                     <p className="person-title">Luiza Draeger</p>
                     <p className='person-text'>cargo</p>
-                    <a href="https://www.linkedin.com/in/victor-lamosa-89a1b4262/" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
+                    <a href="https://www.linkedin.com/in/luiza-draeger-376a561b8/" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
                 </div>
+                
+
             </div>
         </div>
     );
