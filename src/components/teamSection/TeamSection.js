@@ -16,21 +16,21 @@ function TeamSection() {
                     <a href="https://www.linkedin.com/in/silvia-corbani-97582316/" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
                 </div>
                 <div className='person'>
-                    <div id="person-2" className='person-img'></div>
-                    <p className="person-title">Victor Lamosa</p>
-                    <p className='person-text'>cargo</p>
-                    <p className='disabled'>Perfil Profissional</p>
-                </div>
-                <div className='person'>
                     <div id="person-3" className='person-img'></div>
                     <p className="person-title">André Pereira</p>
                     <p className='person-text'>Coordenador</p>
                     <a href="https://lcc-uff.github.io/andre" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
                 </div>
                 <div className='person'>
+                    <div id="person-2" className='person-img'></div>
+                    <p className="person-title">Victor Lamosa</p>
+                    <p className='person-text'>Integrante</p>
+                    <p className='disabled'>Perfil Profissional</p>
+                </div>
+                <div className='person'>
                     <div id="person-4" className='person-img'></div>
                     <p className="person-title">Cainã Bittencourt</p>
-                    <p className='person-text'>cargo</p>
+                    <p className='person-text'>Integrante</p>
                     <a href="https://www.linkedin.com/in/cain%C3%A3-bittencourt-232955236/" target="_blank" rel="noopener noreferrer">Perfil Profissional</a>
                 </div>
                 <div className='person'>
